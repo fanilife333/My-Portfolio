@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Web Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Font Awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header start -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/11.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i data-feather="x" class="close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i data-feather="menu" class="menu-bar" onclick="showMenu()"></i>
+        <a href="index-porto.html"><i class="fa-regular fa-user"></i></a>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2026</h1>
+    </section>
+    <!-- Header End -->
+
+    <!-- Blog Page Content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="img/19.jpg" />
+          <h2>Our Certificate & Online Programs For 2026</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            odit itaque dolores nam veniam corrupti a commodi unde, animi
+            laboriosam aut deserunt non praesentium placeat debitis id illum?
+            Nam, animi!q
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            provident deleniti quibusdam delectus doloribus officiis, corrupti,
+            iure, recusandae temporibus eius eos! Commodi ipsa non fugit
+            consequatur ipsum? Corrupti aliquid nam nobis vitae! Enim ipsam iure
+            dolorem dolore sit repellendus pariatur.
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
+            dolorum ullam amet neque ipsam aliquam vero, incidunt quis
+            laudantium molestias ratione reiciendis ad quam nihil minus,
+            molestiae laborum similique! Accusamus!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            maxime molestiae, dolorem doloremque incidunt consequatur.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Your Name" />
+              <input type="email" placeholder="Your Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn gold-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>16</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer start -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dicta
+        minus. <br />facere similique quaerat commodi est odio voluptas impedit.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>
+        Made with <i class="fa-regular fa-heart"></i> by
+        <a
+          href="https://www.linkedin.com/in/faniurnila?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >Fani Urnila</a
+        >
+      </p>
+    </section>
+    <!-- Footer end -->
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
